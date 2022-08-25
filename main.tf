@@ -41,8 +41,8 @@ resource "google_project_service" "bigtable" {
 
 # Deployment to PROD need to have HA support deploying cluster in different zones of regions.
 
-resource "google_bigtable_instance" "bt_prod_instance653" {
-  name                = "bt-wf-instance653"
+resource "google_bigtable_instance" "bt_prod_instance655" {
+  name                = "bt-wf-instance655"
   deletion_protection = false
 
   cluster {
